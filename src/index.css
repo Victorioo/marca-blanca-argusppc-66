@@ -94,9 +94,10 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
     background: var(--gradient-hero);
     min-height: 100vh;
+    font-family: 'Raleway', system-ui, sans-serif;
   }
 
   .hero-gradient {
