@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 import FloatingElements from "./FloatingElements";
-import argusLogo from "@/assets/argus-logo.png";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center px-4 hero-gradient">
       <FloatingElements />
@@ -10,7 +9,7 @@ const HeroSection = () => {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="bg-white rounded-lg p-3 shadow-lg">
-            <img src={argusLogo} alt="Argus PPC" className="w-16 h-16" />
+            <img src="/lovable-uploads/b3398f6e-d44b-4aac-8230-3a0b62fe9c9e.png" alt="Argus PPC" className="w-16 h-16" />
           </div>
         </div>
 
