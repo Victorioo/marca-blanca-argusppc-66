@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 import FloatingElements from "./FloatingElements";
 import argusLogo from "@/assets/argus-logo.png";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 hero-gradient">
+  return <section className="relative min-h-screen flex items-center justify-center px-4 hero-gradient">
       <FloatingElements />
       
       <div className="container mx-auto max-w-4xl text-center relative z-10">
@@ -32,12 +30,7 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="mb-10">
-          <Button 
-            variant="hero" 
-            size="lg"
-            className="mb-4 text-lg py-6 px-10"
-            onClick={() => window.open('https://calendly.com', '_blank')}
-          >
+          <Button variant="hero" size="lg" className="mb-4 text-lg py-6 px-10" onClick={() => window.open('https://calendly.com', '_blank')}>
             Añadir Paid Media a mi oferta
           </Button>
         </div>
@@ -45,25 +38,17 @@ const HeroSection = () => {
         {/* Social proof */}
         <div className="flex items-center justify-center gap-2 text-white/80 mb-8">
           <div className="flex">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <Star key={star} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-            ))}
+            {[1, 2, 3, 4, 5].map(star => <Star key={star} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
           </div>
           <span className="ml-2 font-medium">5K Miembros de la comunidad</span>
         </div>
 
         {/* Partner badges */}
         <div className="flex items-center justify-center gap-6 opacity-80">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-            <span className="text-white font-semibold">Google Partner</span>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-            <span className="text-white font-semibold">Meta Business Partner</span>
-          </div>
+          
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
