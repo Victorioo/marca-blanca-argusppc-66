@@ -9,7 +9,7 @@ const HeroSection = () => {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="bg-transparent rounded-lg p-3">
-            <img src="/lovable-uploads/b3398f6e-d44b-4aac-8230-3a0b62fe9c9e.png" alt="Argus PPC" className="w-16 h-16" />
+            <img src="/lovable-uploads/b3398f6e-d44b-4aac-8230-3a0b62fe9c9e.png" alt="Argus PPC" className="w-20 h-16" />
           </div>
         </div>
 
