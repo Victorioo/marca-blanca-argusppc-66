@@ -17,7 +17,7 @@ const HeroSection = () => {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Haz crecer tu agencia{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            sin complicarte
+            Haz tu agencia de marketing más completa y rentable
           </span>
         </h1>
 
