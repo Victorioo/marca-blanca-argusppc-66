@@ -15,17 +15,14 @@ const HeroSection = () => {
 
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Haz tu agencia de marketing más{" "}
+          Haz crecer tu agencia{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            completa y rentable
+            Haz tu agencia de marketing más completa y rentable
           </span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Ofrece Paid Media, Growth y performance bajo tu marca. Tus clientes ganan resultados, 
-          tu agencia más valor, y nosotros lo hacemos posible desde detrás de escena.
-        </p>
+        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Ayudamos a Agencias de Marketing a escalar su oferta con Paid Media, aumentando el valor de su fee y entregando resultados tangibles a sus clientes, sin ampliar estructura ni asumir costos fijos.  </p>
 
         {/* CTA Button */}
         <div className="mb-10">
