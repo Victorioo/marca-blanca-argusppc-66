@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="outline-white" size="lg" onClick={() => window.open('https://calendly.com', '_blank')}>
+          <Button variant="outline-white" size="lg" onClick={() => window.open('https://argusppc.com/casos-de-exito/', '_blank')}>
             Conoce los Casos de Éxito aquí
           </Button>
         </div>
