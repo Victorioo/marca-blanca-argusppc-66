@@ -9,20 +9,20 @@ const HeroSection = () => {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <div className="bg-transparent rounded-lg p-3">
-            <img src="/lovable-uploads/b3398f6e-d44b-4aac-8230-3a0b62fe9c9e.png" alt="Argus PPC" className="w-32 h-16" />
+            <img src="/lovable-uploads/b3398f6e-d44b-4aac-8230-3a0b62fe9c9e.png" alt="Argus PPC" className="w-16 h-16" />
           </div>
         </div>
 
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Haz tu agencia de marketing más{" "}
+          Haz crecer tu agencia{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            completa y rentable
+            Haz tu agencia de marketing más completa y rentable
           </span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Ayudamos a Agencias de Marketing a escalar su oferta con Paid Media, aumentando el valor de su fee y entregando resultados tangibles a sus clientes, sin ampliar estructura ni asumir costos fijos.  </p>
+        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Ayudamos a Agencias de Marketing a escalar su oferta con Paid Media, aumentando el valor de su fee y entregando resultados tangibles a sus clientes, sin ampliar estructura ni asumir costos fijos, gracias a nuestro soporte en marca blanca .  </p>
 
         {/* CTA Button */}
         <div className="mb-10">
@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="flex">
             {[1, 2, 3, 4, 5].map(star => <Star key={star} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
           </div>
-          <span className="ml-2 font-medium">Más de 3M USD gestionados, presencia en +7 países y +50 clientes</span>
+          <span className="ml-2 font-medium">5K Miembros de la comunidad</span>
         </div>
 
         {/* Partner badges */}
