@@ -6,7 +6,7 @@ const HowItWorksSection = () => {
     {
       icon: Users,
       title: "Tu cliente, tu briefing",
-      description: "Tú nos compartes la necesidad.",
+      description: "Tú nos compartes la necesidad y los objetivos.",
       color: "text-blue-400"
     },
     {
