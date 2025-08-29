@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="flex">
             {[1, 2, 3, 4, 5].map(star => <Star key={star} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
           </div>
-          <span className="ml-2 font-medium">5K Miembros de la comunidad</span>
+          <span className="ml-2 font-medium">Más de 3M USD gestionados, presencia en +7 países y +50 clientes</span>
         </div>
 
         {/* Partner badges */}
