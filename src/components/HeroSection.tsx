@@ -22,7 +22,7 @@ const HeroSection = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Ayudamos a Agencias de Marketing a escalar su oferta con Paid Media, aumentando el valor de su fee y entregando resultados tangibles a sus clientes, sin ampliar estructura ni asumir costos fijos.  </p>
+        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">Ayudamos a Agencias de Marketing a escalar su oferta con Paid Media, aumentando el valor de su fee y entregando resultados tangibles a sus clientes, sin ampliar estructura ni asumir costos fijos, gracias a nuestro soporte en "marca blanca".  </p>
 
         {/* CTA Button */}
         <div className="mb-10">
