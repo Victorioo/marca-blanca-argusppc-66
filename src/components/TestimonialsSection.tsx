@@ -30,12 +30,27 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {testimonials.map((testimonial, index) => {})}
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+              <div className="flex items-center mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-8 h-8 text-white/40 mb-4" />
+              <p className="text-white/90 text-lg mb-6 italic">"{testimonial.quote}"</p>
+              <div className="border-t border-white/20 pt-6">
+                <p className="text-white font-semibold text-lg">{testimonial.author}</p>
+                <p className="text-white/70">{testimonial.company}</p>
+                <p className="text-primary font-medium mt-2">{testimonial.metrics}</p>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="text-center">
           <Button variant="outline-white" size="lg" onClick={() => window.open('https://calendly.com', '_blank')}>
-            Agendar una llamada para conocer más
+            Conoce los Casos de Éxito aquí
           </Button>
         </div>
       </div>
