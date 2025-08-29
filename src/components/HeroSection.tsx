@@ -26,7 +26,7 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="mb-10">
-          <Button variant="hero" size="lg" className="mb-4 text-lg py-6 px-10" onClick={() => window.open('https://calendly.com', '_blank')}>
+          <Button variant="hero" size="lg" className="mb-4 text-lg py-6 px-10" onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}>
             Añadir Paid Media a mi oferta
           </Button>
         </div>

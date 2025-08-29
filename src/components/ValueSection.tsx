@@ -49,7 +49,7 @@ const ValueSection = () => {
                 variant="cta" 
                 size="lg"
                 className="w-full"
-                onClick={() => window.open('https://calendly.com', '_blank')}
+                onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
               >
                 Agendar una llamada
               </Button>

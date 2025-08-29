@@ -29,7 +29,7 @@ const Navbar = () => {
         <Button 
           variant="cta" 
           size="sm"
-          onClick={() => window.open('https://calendly.com', '_blank')}
+          onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
         >
           Agendar llamada
         </Button>

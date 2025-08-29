@@ -72,7 +72,7 @@ const PackagesSection = () => {
                 <Button 
                   variant={pkg.popular ? "cta" : "outline-white"} 
                   className="w-full"
-                  onClick={() => window.open('https://calendly.com', '_blank')}
+                  onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
                 >
                   Elegir {pkg.name}
                 </Button>
@@ -85,7 +85,7 @@ const PackagesSection = () => {
           <Button 
             variant="hero" 
             size="lg"
-            onClick={() => window.open('https://calendly.com', '_blank')}
+            onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
           >
             Quiero conocer estos paquetes
           </Button>
