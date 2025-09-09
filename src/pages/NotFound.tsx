@@ -17,7 +17,7 @@ const NotFound = () => {
         <h1 className="text-4xl font-bold mb-4 text-black">Cuidado que te perdiste!</h1>
         <p className="text-xl text-gray-600 mb-4">Esta página no existe</p>
         <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Volver al Home
+        Ir al home
         </a>
       </div>
     </div>
