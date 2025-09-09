@@ -13,7 +13,7 @@ const ValueSection = () => {
     <section className="py-20 px-4 relative">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 md:leading-tight">
             Convierte tu agencia en una{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               solución integral
@@ -25,7 +25,7 @@ const ValueSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid md:grid-cols-2 gap-8 items-stretch">
           {/* Benefits list */}
           <div className="space-y-6">
             {benefits.map((benefit, index) => (
@@ -48,7 +48,7 @@ const ValueSection = () => {
               <Button 
                 variant="cta" 
                 size="lg"
-                className="w-full"
+                className="w-full transition-all text-md"
                 onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
               >
                 Agendar una llamada

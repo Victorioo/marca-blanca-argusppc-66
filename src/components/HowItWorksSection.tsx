@@ -67,6 +67,7 @@ const HowItWorksSection = () => {
           <Button 
             variant="outline-white" 
             size="lg"
+            className="text-md px-14 py-6"
             onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
           >
             Explorar cómo funciona

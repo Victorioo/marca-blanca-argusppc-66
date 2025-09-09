@@ -65,6 +65,7 @@ const BenefitsSection = () => {
           <Button 
             variant="hero" 
             size="lg"
+            className="px-14 py-6 transition-all font-semibold"
             onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
           >
             Quiero ganar más con mi agencia

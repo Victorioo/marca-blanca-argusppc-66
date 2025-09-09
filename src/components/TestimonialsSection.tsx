@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
   }];
   return <section className="py-20 px-4 relative">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-6">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Casos de{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -29,12 +29,8 @@ const TestimonialsSection = () => {
           <p className="text-xl text-white/80 max-w-2xl mx-auto">Descubre los Casos de Éxitos que hemos tenido en Paid Media</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {testimonials.map((testimonial, index) => {})}
-        </div>
-
         <div className="text-center">
-          <Button variant="outline-white" size="lg" onClick={() => window.open('https://argusppc.com/casos-de-exito/', '_blank')}>
+          <Button variant="outline-white" size="lg" className="px-14 text-md py-6 transition-all font-semibold" onClick={() => window.open('https://argusppc.com/casos-de-exito/', '_blank')}>
             Conoce los Casos de Éxito aquí
           </Button>
         </div>

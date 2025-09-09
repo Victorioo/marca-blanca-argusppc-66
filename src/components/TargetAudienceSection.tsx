@@ -5,42 +5,42 @@ const TargetAudienceSection = () => {
     {
       icon: Building,
       title: "Agencias de publicidad",
-      description: "que aún no tienen un equipo de performance propio."
+      description: "Que aún no tienen un equipo de performance propio."
     },
     {
       icon: Palette,
       title: "Agencias de branding y diseño",
-      description: "que quieren sumar Paid Media."
+      description: "Que quieren sumar Paid Media."
     },
     {
       icon: Camera,
       title: "Agencias de social media",
-      description: "que buscan resultados medibles."
+      description: "Que buscan resultados medibles."
     },
     {
       icon: Globe,
       title: "Estudios web",
-      description: "que desean ofrecer un ecosistema completo."
+      description: "Que desean ofrecer un ecosistema completo."
     },
     {
       icon: Megaphone,
       title: "Agencias de PR y comunicación",
-      description: "que necesitan potenciar lanzamientos."
-    },
-    {
-      icon: User,
-      title: "Freelancers",
-      description: "que quieren escalar sin sobrecargarse."
+      description: "Que necesitan potenciar lanzamientos."
     },
     {
       icon: Users,
       title: "Consultores de marketing",
-      description: "que desean digitalizar su oferta."
+      description: "Que desean digitalizar su oferta."
+    },
+    {
+      icon: User,
+      title: "Freelancers",
+      description: "Que quieren escalar sin sobrecargarse."
     }
   ];
 
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-14 px-4 relative">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

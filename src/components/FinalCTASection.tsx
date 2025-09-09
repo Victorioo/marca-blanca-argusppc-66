@@ -21,7 +21,7 @@ const FinalCTASection = () => {
             <Button 
               variant="hero" 
               size="lg"
-              className="text-xl py-8 px-12 group"
+              className="text-xl py-8 px-12 group transition-all"
               onClick={() => window.open('https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon', '_blank')}
             >
               Habla con nosotros en confianza
