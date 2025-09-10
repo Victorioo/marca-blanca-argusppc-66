@@ -38,15 +38,15 @@ const FinalCTASection = () => {
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-white/60 text-sm mb-2">Email</div>
-                <div className="text-white">info@argusppc.com</div>
+                <a className="text-white hover:text-sky-300 transition-all" href="mailto:info@argusppc.com">info@argusppc.com</a>
               </div>
               <div>
                 <div className="text-white/60 text-sm mb-2">Llamada directa</div>
-                <div className="text-white">Agenda tu sesión gratuita</div>
+                <a className="text-white hover:text-sky-300 transition-all" href="https://calendly.com/argusppc/sesion-de-consultoria-gratis-para-empresas-de-am-clon">Agenda tu sesión gratuita</a>
               </div>
               <div>
                 <div className="text-white/60 text-sm mb-2">Respuesta</div>
-                <div className="text-white">En menos de 24 horas</div>
+                <a className="text-white">En menos de 24 horas</a>
               </div>
             </div>
           </div>
